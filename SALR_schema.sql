@@ -20,8 +20,8 @@ CREATE TABLE dept_emp (
 CREATE TABLE dept_manager (
 	dept_no VARCHAR NOT NULL,
 	emp_no VARCHAR NOT NULL,
-	from_date INT NOT NULL,
-	to_date INT NOT NULL
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL
 );
 
 CREATE TABLE employees (
